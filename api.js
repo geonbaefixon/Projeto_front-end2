@@ -46,14 +46,10 @@ function validarUsuario(objLoginSenha) {
     //email: admin@admin.com
     //senha: '1234'
 
-    /*
-
     var objLoginSenha = {
-            email: "email informado", 
-            senha: "senha informada"} 
-
-    */
-
+        email: "email informado", 
+        senha: "senha informada"}
+    
     var retorno = false;
 
     var validacao = $.ajax({
