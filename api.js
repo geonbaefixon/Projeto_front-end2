@@ -20,14 +20,15 @@ function obterMensagens() {
 
 function inserirMensagem(mensagem) {
 
-    /*
+    var nome = document.getElementById("nome").value;
+    var email = document.getElementById("email").value;
+    var mensagemTexto = document.getElementById("msg").value;
 
     var mensagem = {
             nome: "nome da pessoa", 
             email: "email informado", 
             mensagem: "a mensagem informada"} 
 
-    */
 
     var inserir = $.ajax({
 
